@@ -1,0 +1,191 @@
+/*web Principal*/
+.title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+        /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    /* color: #FFFFFF;Este color para cuando tenga el cuadro y los pandi*/
+    color: black
+}
+
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+.job{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+/* Encabezado web portfolio, web Principal*/
+.webstudio {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.study{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #212121;
+}
+.study:hover {
+    color: #2196F3;
+} /* CSS link hover (azul) */
+.portfolio{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #212121;
+}
+.portfolio:hover {
+    color: #2196F3;
+} /* CSS link hover (azul) */
+.contacs{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #212121;
+}
+.contacs:hover {
+    color: #2196F3;
+}/* CSS link hover (azul) */
+.email{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.email:hover {
+    color: #2196F3;
+}/* CSS link hover (azul) */
+.numbertel{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+.numbertel:hover {
+    color: #2196F3;
+}/* CSS link hover (azul) */
+
+/*section buttons  web portfolio*/
+.mybutton:hover {
+    background: rgba(33, 150, 243, 1);
+    color: #FFFFFF;
+    cursor: pointer;
+    cursor: hand;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.mybutton {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+/*section images */
+.text-photo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+
+.subtext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+/*direccion para principal and portfolio*/
+.address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% 
+    
+    letter-spacing: 0.03em;
+    
+    /*color: #FFFFFF; Este color cuando tengamos la caja con los pading*/ 
+    color: black;
+}
