@@ -6,17 +6,21 @@
   <meta name="soluciones eficaces para su negocio" content="Expone las soluciones para negocio o empresa " />
   <title>SOLUCIONES EFICACES PARA SU NEGOCIO</title>
   <!--se deja comentario pregunta a tutor o mentor cuando se debe colocar el titulo en una pagina web o solo xon el encabezado h1 tiene para el titulo -->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:ital,wght@1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 
 <body>
 
   <header>
     <nav>
-      <a href class="webstudio"> WebStudio </a>
+      <a href class="webstudio">Web<span>Studio </span> </a>
       <ul>
-        <li><a href="./index.html" class="study"> Estudio </a> </li>
-        <li><a href="./portfolio.html" class="portfolio"> Portafolio </a></li>
+        <li><a class="study-active" href="./index.html" > Estudio </a> </li>
+        <li><a class="portfolio" href="./portfolio.html" > Portafolio </a></li>
         <li><a href class="contacs"> Сontactos </a></li>
       </ul>
     </nav>
@@ -27,9 +31,9 @@
   </header>
   <main>
 
-    <section>
+    <section class="fondo">
       <h1 class="title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-      <button class="mybutton">Solicite nuestro servicio</button>
+      <button class="mybutton-1">Solicite nuestro servicio</button>
     </section>
 
     <section>
@@ -37,15 +41,12 @@
         <li>
           <h3 class="text-photo">ATENCIÓN A LOS DETALLES</h3>
           <p class="subtext">Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una
-            solución a su
-            medida.
-          </p>
+            solución a su medida.</p>
         </li>
         <li>
           <h3 class="text-photo">PUNTUALIDAD</h3>
           <p class="subtext">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la
-            empresa: respetar su
-            tiempo
+            empresa: respetar su tiempo
             y respetar los plazos acordados.</p>
         </li>
         <li>
@@ -56,8 +57,7 @@
         <li>
           <h3 class="text-photo">TEGNOLOGÍA MODERNA</h3>
           <p class="subtext">Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar
-            los procesos
-            laborales.</p>
+            los procesos laborales.</p>
         </li>
       </ul>
     </section>
@@ -65,15 +65,15 @@
     <section>
       <h2>A qué nos dedicamos</h2>
       <ul>
-        <img src="./images/imagen1.jpg" alt="servicio 1">
+        <li><img src="./images/imagen1.jpg" alt="servicio 1"></li>
 
-        <img src="./images/imagen2.jpg" alt="Servicio 2">
+        <li><img src="./images/imagen2.jpg" alt="Servicio 2"></li>
 
-        <img src="./images/imagen3.jpg" alt="Servicio 3">
+        <li><img src="./images/imagen3.jpg" alt="Servicio 3"></li>
       </ul>
     </section>
 
-    <section>
+    <section class="our-team">
       <h2>Nuestro Equipo</h2>
       <ul>
 
@@ -103,11 +103,13 @@
         </li>
       </ul>
     </section>
+
   </main>
 
-  <footer>
+  <footer class="bottom-page">
 
-    <a href class="webstudio"> WebStudio </a>
+    <a href class="webstudio-footer">Web<span1>Studio </span1> </a>
+
     <address>
       <ul>
         <li>
