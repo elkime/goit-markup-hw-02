@@ -96,15 +96,14 @@ span { color: #212121;
     font-weight: 500;
     color: #212121;
 }
-.study:hover {
+.study:hover {      
     color: #2196F3;
     
 } /* CSS link hover (azul) */
 
 .study:focus {
-    background: #2196F3; 
-    color: #FFFFFF
-    } /* CSS link focus  (azul)  con tab */
+    color: #2196F3; 
+    } /* CSS link focus  solo letra con color (azul)  con tab */
 
 .study-active {
     color: #2196F3;}/* CSS link NAV (azul) */
@@ -119,8 +118,7 @@ span { color: #212121;
     color: #2196F3;} /* CSS link hover (azul) */
 
 .portfolio:focus {
-    background: #2196F3; 
-    color: #FFFFFF
+    color: #2196F3;
     } /* CSS link focus  (azul)  con tab */
 
 .portfolio-active {
@@ -137,8 +135,7 @@ span { color: #212121;
 }/* CSS link hover (azul) */
 
 .contacs:focus {
-    background: #2196F3; 
-    color: #FFFFFF
+    color: #2196F3;
     } /* CSS link focus  (azul)  con tab */
 
 .email{
@@ -163,8 +160,7 @@ span { color: #212121;
 }/* CSS link hover (azul) */
 
 .email:focus {
-    background: #2196F3;
-    color: #FFFFFF 
+    color: #2196F3; 
     } /* CSS link focus  (azul)  con tab */
 
 .numbertel{
@@ -184,8 +180,7 @@ span { color: #212121;
 }/* CSS link hover (azul) */
 
 .numbertel:focus {
-    background: #2196F3;
-    color: #FFFFFF 
+    color: #2196F3;
     } /* CSS link focus  (azul)  con tab */
 
 /*section button  web html principal*/
@@ -247,9 +242,7 @@ span { color: #212121;
 
 /*section buttons  web portfolio*/
 .mybutton {
-    width: 197px;
-    height: 30px;
-
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -335,8 +328,9 @@ span { color: #212121;
 
 /*footer o pie de pagina de las dos paginas */ 
 .bottom-page{
-    width: 1600px;
-    height: 252px;
+    /*width: 1600px;
+    height: 252px;    se deja para despues */
+    
     left: 0px;
     top: 1628px;
 
@@ -372,6 +366,14 @@ span1 { color: #FFFFFF;
     line-height: 1.19;}
 
 
+body {
+    font-size: 14px;
+    font-family: 'Roboto', 'sans-serif';
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+    }
+        
 
 a {text-decoration: none}  /*quitar subrayado en todo el body*/
 ul {list-style-type:none}  /*quitar viñetas en todo el body*/
