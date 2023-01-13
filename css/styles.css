@@ -106,6 +106,12 @@ span { color: #212121;
     } /* CSS link focus  solo letra con color (azul)  con tab */
 
 .study-active {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    /*font-size: 14px;
+    line-height: 16px; para la tarea 3 */
+
     color: #2196F3;}/* CSS link NAV (azul) */
 
 .portfolio{
@@ -122,6 +128,11 @@ span { color: #212121;
     } /* CSS link focus  (azul)  con tab */
 
 .portfolio-active {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    /*font-size: 14px;
+    line-height: 16px;  para la tarea 3 */ 
     color: #2196F3;}   /* CSS link navegacion  toca con el mismo nombre de la clase pero agregando otra palabra nav(azul) */
 
 .contacs{
@@ -245,27 +256,40 @@ span { color: #212121;
     
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.87;   /* 30px/16px= 1.87  */
-/* identical to box height, or 188% */
+    line-height: 1.62;
+/* identical to box height, or 162% */
 
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+    /*text-align: center;
+    letter-spacing: 0.03em;*/
 
     color: #212121;
+
+    
+    /*width: 80px;
+    height: 26px;
+    left: calc(50% - 80px/2 - 160px);
+    top: calc(50% - 26px/2 - 735px);*/
     
     /*para que saliera el boton centrado y en color azul en portfolio*/
-    display: flex;
+    /*display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 10px 32px;
-    gap: 10px;
+    gap: 10px;*/ 
 
+    /*para establecer el tamaño de los botones*/
     
+    width: 128px;
+    height: 38px;
+    left: calc(50% - 128px/2 - 160px);
+    top: calc(50% - 38px/2 - 735px);
+
+    background: #F5F4FA;
+    border-radius: 4px;
+
     }
     
 .mybutton:hover {
