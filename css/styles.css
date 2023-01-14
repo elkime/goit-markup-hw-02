@@ -196,37 +196,16 @@ span { color: #212121;
 
 /*section button  web html principal*/
 .mybutton-1 {
-    width: 197px;
-    height: 30px;
-
+   
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;  /* 30px/16px= 1.87  */
-/* identical to box height, or 188% */
-
-    /*display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;*/
 
     color: #FFFFFF;
     
-    /*para que saliera el boton centrado y en color azul en portfolio*/
-    /*display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 32px;
-    gap: 10px;*/
-
-
-    /*position: absolute;
-    width: 261px;
-    height: 50px;
-    left: 666px;
-    top: 430px;*/
+    padding: 10px 32px 10px 32px;
 
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -235,16 +214,9 @@ span { color: #212121;
     }
     
 .mybutton-1:hover {
-    background: rgba(33, 150, 243, 1);
-    color: #FFFFFF;
     cursor: pointer;
     cursor: hand;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;  /* 26px/16px= 1.62  */
-}
+    }    
 
 .mybutton-1:focus {
     background: #2196F3;
@@ -252,6 +224,7 @@ span { color: #212121;
     } /* CSS link focus  (azul)  con tab */
 
 /*section buttons  web portfolio*/
+
 .mybutton {
     
     font-family: 'Roboto';
@@ -259,33 +232,11 @@ span { color: #212121;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-/* identical to box height, or 162% */
-
-    /*text-align: center;
-    letter-spacing: 0.03em;*/
 
     color: #212121;
-
+    padding: 10px 32px 10px 32px;
     
-    /*width: 80px;
-    height: 26px;
-    left: calc(50% - 80px/2 - 160px);
-    top: calc(50% - 26px/2 - 735px);*/
     
-    /*para que saliera el boton centrado y en color azul en portfolio*/
-    /*display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 32px;
-    gap: 10px;*/ 
-
-    /*para establecer el tamaño de los botones*/
-    
-    width: 128px;
-    height: 38px;
-    left: calc(50% - 128px/2 - 160px);
-    top: calc(50% - 38px/2 - 735px);
 
     background: #F5F4FA;
     border-radius: 4px;
