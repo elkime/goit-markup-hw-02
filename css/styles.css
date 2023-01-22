@@ -352,3 +352,39 @@ body {
 
 a {text-decoration: none}  /*quitar subrayado en todo el body*/
 ul {list-style-type:none}  /*quitar viñetas en todo el body*/
+
+/* margenes, padding, contenedores*/
+/*body {
+    /*font-family: sans-serif;
+    line-height: 1.5;
+    background-color: #f9f9fd;
+    max-width: 1200px;
+        }*/
+
+/* menu horizontal encabezado aplicando container*/
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+      
+    } 
+   
+  
+    
+
+    /* menu horizontal botones*/
+#button-horizontal {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+
+}
+#button-horizontal li {
+    float:left;
+    }
+

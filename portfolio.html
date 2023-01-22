@@ -9,31 +9,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-  
+     
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+
     <link rel="stylesheet" href="css/styles.css" type="text/css">
   </head>
 
   <body>
 
-    <header>
+    <header >
+      <div class="container-header">  
         <nav>
-            <a href class="webstudio" >Web<span>Studio </span> </a>
             <ul>
-                <li><a class="study" href="./index.html" > Estudio </a> </li>
-                <li><a class="portfolio-active" href="./portfolio.html" > Portafolio </a></li>
-                <li><a href class="contacs"> Сontactos </a></li>
+                <div> <a href class="webstudio" >Web<span>Studio </span> </a>
+                <div> <li><a class="study" href="./index.html" > Estudio </a> </li></div>
+                <div> <li><a class="portfolio-active" href="./portfolio.html" > Portafolio </a></li></div>
+                <div>  <li><a href class="contacs"> Сontactos </a></li></div>
             </ul>
         </nav>
         <ul>
-            <li><a href class="email"> info@devstudio.com</a></li>
-            <li> <a href class="numbertel"> +52 55 5529 6000</a></li>
+            <div><li><a href class="email"> info@devstudio.com</a></li></div>
+            <div><li> <a href class="numbertel"> +52 55 5529 6000</a></li></div>
         </ul>
+     </div>
     </header>
+    
     <main>
 
         <section>
 
-            <ul>
+            <ul id="button-horizontal">
                 <li><button class="mybutton">Todo</button></li>
                 <li><button class="mybutton">Sitios-web</button></li>
                 <li><button class="mybutton">Aplicaciones</button></li>
