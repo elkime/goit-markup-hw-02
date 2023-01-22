@@ -362,6 +362,7 @@ ul {list-style-type:none}  /*quitar viñetas en todo el body*/
         }*/
 
 /* menu horizontal encabezado aplicando container*/
+/* para revisar por parte del mentor*/
 
 .container-header {
     display: flex;
@@ -378,6 +379,7 @@ ul {list-style-type:none}  /*quitar viñetas en todo el body*/
     
 
     /* menu horizontal botones*/
+    /*no se ha utilizado flex para los botones*/
 #button-horizontal {
     margin:0;
     padding:0;
